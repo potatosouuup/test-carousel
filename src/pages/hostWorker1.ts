@@ -1,5 +1,5 @@
 // 웹 워커 스크립트 (hostWorker1.ts)
-import type { MockGroupHostType, NewHostType } from '../../store';
+import type { MockGroupHostType, NewHostType } from '../store';
 
 export type {};
 

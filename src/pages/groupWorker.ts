@@ -1,5 +1,5 @@
 // 웹 워커 스크립트 (worker.ts)
-import type { MockGroupHostType, MockGroupType } from '../../store';
+import type { MockGroupHostType, MockGroupType } from '../store';
 
 export type {};
 // importScripts('./mockHosts.ts');

@@ -104,7 +104,7 @@
 	import Options from '../components/carousel/Options.svelte';
 
 	// #region Web Worker - postmessage
-	const worker = new Worker(new URL('../components/carousel/groupWorker.ts', import.meta.url));
+	const worker = new Worker(new URL('./groupWorker.ts', import.meta.url));
 	const newCreateCount = () => worker.postMessage({ min: 5, max: 20 });
 
 	newCreateCount();
